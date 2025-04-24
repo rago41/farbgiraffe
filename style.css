@@ -10,13 +10,11 @@ body {
 .navbar {
     background-color: #9A32CD;
     overflow: hidden;
-    width: 80%; /* Navbar ist 100% der Seitenbreite */
-    margin: left; /* Links-Zentriert die Navbar */
+    width: 64px; /* Navbar ist 100% der Seitenbreite */
 }
 
 .header, .content, .content img {
-    width: 80%; /* Übernimmt exakt die Navbar-Breite */
-    margin: left; /* Links-Zentriert den Inhalt */
+    width: 64px; /* Übernimmt exakt die Navbar-Breite */
 }
 
 /* Stil für die Links in der Navigationsleiste */
@@ -99,7 +97,7 @@ body {
 .dropdown-submenu-content {
     display: none;
     position: absolute;
-    right: 100%;
+    left: 100%;
     top: 0;
     background-color: #f9f9f9;
     min-width: 160px;

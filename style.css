@@ -10,6 +10,13 @@ body {
 .navbar {
     background-color: #9A32CD;
     overflow: hidden;
+    width: 100%; /* Beispiel: Navbar ist 100% der Seitenbreite */
+    margin: auto; /* Zentriert die Navbar */
+}
+
+.header, .content, .content img {
+    width: 100%; /* Übernimmt exakt die Navbar-Breite */
+    margin: auto; /* Zentriert den Inhalt */
 }
 
 /* Stil für die Links in der Navigationsleiste */
@@ -122,17 +129,6 @@ body {
 /* Hover-Effekt für das Unter-Untermenü */
 .dropdown-submenu .dropbtn:hover {
     background-color: #ddd;
-
-
-.navbar {
-    width: 100%; /* Beispiel: Navbar ist 100% der Seitenbreite */
-    margin: auto; /* Zentriert die Navbar */
-}
-
-.header, .content, .content img {
-    width: 100%; /* Übernimmt exakt die Navbar-Breite */
-    margin: auto; /* Zentriert den Inhalt */
-}
 }
 
 

@@ -10,13 +10,13 @@ body {
 .navbar {
     background-color: #9A32CD;
     overflow: hidden;
-    width: 100%; /* Beispiel: Navbar ist 100% der Seitenbreite */
-    margin: auto; /* Zentriert die Navbar */
+    width: 80%; /* Navbar ist 100% der Seitenbreite */
+    margin: left; /* Links-Zentriert die Navbar */
 }
 
 .header, .content, .content img {
-    width: 100%; /* Übernimmt exakt die Navbar-Breite */
-    margin: auto; /* Zentriert den Inhalt */
+    width: 80%; /* Übernimmt exakt die Navbar-Breite */
+    margin: left; /* Links-Zentriert den Inhalt */
 }
 
 /* Stil für die Links in der Navigationsleiste */

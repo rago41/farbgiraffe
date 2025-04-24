@@ -128,17 +128,9 @@ body {
 .dropdown-submenu .dropbtn:hover {
     background-color: #ddd;
 }
-
-.img-container {
-    width: 60%;
-    padding-top: 56.25%; /* 16:9 Verhältnis */
-    position: relative;
+img {
+    width: inherit; /* Erbt die Breite des Elterncontainers */
+    max-width: 100%; /* Falls nötig, begrenzt die Größe */
 }
 
-.img-container img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
